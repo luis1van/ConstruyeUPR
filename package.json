@@ -1,0 +1,19 @@
+{
+  "name": "construye-upr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "web.js",
+  "scripts": {
+      "start": "node web.js"
+  },
+  "author": "Luis Padro",
+  "license": "ISC",
+  "engines": {
+    "node": "7.0.0",
+    "npm": "3.10.8"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "serve-static": "^1.11.1"
+  }
+}

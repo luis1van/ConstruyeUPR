@@ -1,0 +1,52 @@
+
+.uni {
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    
+}
+
+.logo {
+    height: 100%;
+    width: auto;
+}
+
+.logof {
+    height: 400% !important;
+    width: 100% !important;
+}
+
+.foospace {
+    background-color: gray;
+    text-align: center;
+
+}
+
+.dona {
+    position: relative;
+    top: 27px;
+    margin-top: 300px;
+    border-radius: 6px;
+    }
+
+.padding-vh {
+    margin-top: 27px;
+}
+
+.meta.img-responsive {
+    margin:0 auto;
+}
+
+.slider-handle {
+background:  url(../img/mascota_aguadilla.png) no-repeat center;
+background-size: contain;
+}
+/*.slider {
+    background: none;
+}*/
+.el {
+    
+}
+
+.uni-primary {
+    background-color: blue;
+}
