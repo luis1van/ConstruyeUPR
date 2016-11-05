@@ -5,27 +5,33 @@
     
 }
 
-.logo {
+.logof img {
     height: 100%;
-    width: auto;
+    padding: 5px
+    
 }
 
 .logof {
-    height: 400% !important;
-    width: 100% !important;
+    height: 250% !important;
+    width: auto !important;
+    background-color: white !important;
 }
+
 
 .foospace {
-    background-color: gray;
+    background-color: #231f20;
     text-align: center;
-
+    color: white;
 }
-
+.title{
+    margin-top: 75px;
+}
 .dona {
     position: relative;
     top: 27px;
-    margin-top: 300px;
+    margin-top: 75px;
     border-radius: 6px;
+    border-color: transparent;
     }
 
 .padding-vh {
@@ -43,10 +49,88 @@ background-size: contain;
 /*.slider {
     background: none;
 }*/
-.el {
-    
+
+.fa {
+    color: #f8981d;
 }
 
 .uni-primary {
-    background-color: blue;
+    background-color: #f8981d !important;
+   
+}
+
+.logob {
+    
+    margin-top: -1em !important;
+    margin-left: -1em !important;
+    margin-bottom: -1em !important;
+    background-color: white !important;
+    
+}
+
+.logob img {
+    height: 100%;
+    padding: 5px
+}
+
+.logop {
+    position: relative;
+    right: .3em;
+    bottom: 2rem;
+
+}
+
+.unislct {
+    margin: 1em;
+    margin-top: 1.5em;
+    border-radius: 5px;
+    vertical-align: bottom;
+}
+
+.uni-aguadilla {
+    background-color: #233e92;
+    color: white !important;
+}
+
+.uni-arecibo {
+    background-color: #faf374;
+}
+
+.uni-bayamon {
+    background-color: #97b4de;
+}
+
+.uni-carolina {
+    background-color: #233e92;
+    color: white !important;
+}
+
+.uni-cm {
+    background-color: #9d8a49;
+    color: white !important
+}
+
+.uni-riopiedras {
+    background-color: #ef3c43;
+    color: white !important;
+}
+
+.uni-ponce {
+    background-color: #ef3e35;
+}
+
+.uni-maya {
+    background-color: #347337;
+}
+
+.uni-humacao {
+    background-color: #7a123e;
+}
+
+.uni-cayey {
+    background-color: #2f8a42
+}
+
+.uni-utuado {
+    background-color: #5c210d;
 }
