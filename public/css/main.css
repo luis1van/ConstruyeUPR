@@ -61,10 +61,11 @@ background-size: contain;
 
 .logob {
     
-    margin-top: -1em !important;
-    margin-left: -1em !important;
+    margin-top: -1.4em !important;
+    margin-left: -1.25em !important;
     margin-bottom: -1em !important;
     background-color: white !important;
+    float: left;
     
 }
 
@@ -73,17 +74,13 @@ background-size: contain;
     padding: 5px
 }
 
-.logop {
-    position: relative;
-    right: .3em;
-    bottom: 2rem;
 
-}
 
 .unislct {
     margin: 1em;
     margin-top: 1.5em;
     border-radius: 5px;
+    width: 100%;
     vertical-align: bottom;
 }
 
@@ -98,6 +95,7 @@ background-size: contain;
 
 .uni-bayamon {
     background-color: #97b4de;
+    color: white !important;
 }
 
 .uni-carolina {
@@ -117,20 +115,25 @@ background-size: contain;
 
 .uni-ponce {
     background-color: #ef3e35;
+    color: white !important;
 }
 
 .uni-maya {
     background-color: #347337;
+    color: white !important;
 }
 
 .uni-humacao {
     background-color: #7a123e;
+    color: white !important;
 }
 
 .uni-cayey {
-    background-color: #2f8a42
+    background-color: #2f8a42;
+     color: white !important;
 }
 
 .uni-utuado {
     background-color: #5c210d;
+    color: white !important;
 }
