@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Construye</title>
+        <!-- Material Design fonts -->
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+        <!-- Bootstrap Core CSS -->
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/bootstrap-material-design.min.css" rel="stylesheet">
+        <link href="/css/ripples.css" rel="stylesheet">
+        <link href="/css/bootstrap-slider.css" rel="stylesheet">
+
+        <link href="/css/main.css" rel="stylesheet">
+        <link href="css/contribuye.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <section class="container-fluid foospace2">
+            <div class="col-md-12 title">
+            </div>
+        </section>
+        <section class="container-fluid">
+            <div class="">
+                <div class="folder"></div>
+                <div class="onTop container">
+                    <h1 class="text-center"> #YO CONSTRUYO: </h1>
+                    <div class="form-group text-center">
+                        <div class="col-md-10 pselect">
+                            <label class="select">
+                                <select class="pselect">
+                                    <option value="0">Nombre del Proyecto</option>
+                                    <option value="1">UPR Aguadilla</option>
+                                    <option value="2">UPR Mayguez</option>
+                                    <option value="3">UPR Utuado</option>
+                                    <option value="4">UPR Carolina</option>
+                                </select>
+                                <i></i>
+                            </label>
+                        </div>
+                    </div>
+
+                    <h3>Tu regalo:</h3>
+                    <div class="btn-group" role="group" aria-label="...">
+                        <button type="button" class="btn btn-default">$5</button>
+                        <button type="button" class="btn btn-default">$10</button>
+                        <button type="button" class="btn btn-default">$25</button>
+                        <button type="button" class="btn btn-default">$50</button>
+                        <button type="button" class="btn btn-default">$100</button>
+                        <button type="button" class="btn btn-default">Otra</button>
+                    </div>
+                    <h3>Convierte tu regalo en uno mensual</h3>
+                    <button type="button" class="btn btn-default">apoya</button>
+                    <h3>Tu informacion</h3>
+                    <fieldset class="myform">
+                        <div class="row">
+                            <div class="col-sm-6 text-center info">
+                                <label class="label">Nombre</label>
+                                <label class="input">
+                                    <input type="text" name="name" id="name">
+                                </label>
+                            </div>
+                            <div class="col-sm-6 text-center info">
+                                <label class="label">Apellido</label>
+                                <label class="input">
+                                    <input type="text" name="lastname" id="lastname">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 text-center info">
+                                <label class="label">Correo Electronico</label>
+                                <label class="input">
+                                    <input type="email" name="email" id="email">
+                                </label>
+                            </div>
+                            <div class="col-sm-6 text-center info">
+                                <label class="label">Teléfono</label>
+                                <label class="input">
+                                    <input type="tel" name="phone" id="phone">
+                                </label>
+                            </div>
+                        </div>
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="Z3GWH6FR8E5P2">
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </fieldset>
+                </div>
+            </div>
+        </section>
+
+    </body>
+    <script src="/js/jquery-3.1.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/material.min.js"></script>
+    <script src="/js/ripples.min.js"></script>
+    <script src="/js/bootstrap-slider.js"></script>
+    <script src="https://use.fontawesome.com/b75df7c669.js"></script>
+    <script src="/js/main.js"></script>
+</html>

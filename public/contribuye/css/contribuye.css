@@ -1,0 +1,111 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #eee;
+}
+
+/*h1 {
+font-size: 2em;
+margin-bottom: .5em;
+}*/
+
+p {
+    margin-bottom: 1em;
+}
+
+.f{
+    background: url(/img/folder.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:8000px;
+    width:100% !important; 
+    max-width: 100%;
+    min-width: 100%;
+    background-position;
+    
+}
+.onTop{
+
+    padding-top: 50px;
+    margin-top: -80px;
+    color: white;
+    background: url(/img/folder.png) no-repeat center;
+    background-size: 115% 2000px;
+    background-position:center -400px;
+    
+
+}
+
+.inner {
+    position: relative;
+    color: white;
+    z-index: 2;
+}
+
+#wrap:before {
+    content: "\E074"; 
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    position:relative;
+
+    font-size: 100%;
+
+    margin: 0 0 0 0;
+    z-index: 1;
+}
+.foospace2 {
+    background-color: #231f20;
+    text-align: center;
+    padding-bottom: 80px;
+    color: white;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%; /* Bottom of button */
+    right: 0;
+    text-align: center; /* More to the left */
+}
+.myform .label{
+    border-radius: 0;
+    background-color: transparent;
+    font-size: 100%;
+    text-align: left;
+    color: inherit;
+    display: block;
+    margin-bottom: 6px;
+    line-height: 19px;
+    font-weight: 400;
+    width: 100%;
+}
+.pselect{
+    width: 100% !important;
+    display: inline-block !important;
+}
+.pselect>.select{
+    width: 100% !important;
+    display: inline-block !important;
+}
+.pselect>label{
+    width: 100% !important;
+    display: inline-block !important;
+}
+label>select{
+    width: 100% !important;
+    display: inline-block !important;
+}
+.info>label.input{
+    width: 100%;
+}
+.info>label>input{
+    width: 100%;
+}
