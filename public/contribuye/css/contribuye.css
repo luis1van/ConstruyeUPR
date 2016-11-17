@@ -35,8 +35,6 @@ p {
     background: url(/img/folder.png) no-repeat center;
     background-size: 115% 2000px;
     background-position:center -400px;
-    
-
 }
 
 .inner {
@@ -108,4 +106,9 @@ label>select{
 }
 .info>label>input{
     width: 100%;
+}
+
+.mensual {
+    background-color: white !important;
+    color: white !important;
 }
