@@ -1,0 +1,2 @@
+var style = $('<style>.slider-tick.round.in-selection{\n     background-image:linear-gradient(to bottom, #347337 0%, #347337 100%) !important; \n}\n.slider-selection.tick-slider-selection{\n     background-image:linear-gradient(to bottom, #347337 0%, #347337 100%) !important; \n} </style>');
+$('html > head').append(style);

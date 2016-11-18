@@ -1,0 +1,9 @@
+.foospace{
+    background-color: #231f20;
+    background-image: url("/img/main.jpg");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    text-align: center;
+    color: white;
+}

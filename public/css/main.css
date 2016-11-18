@@ -2,13 +2,13 @@
 .uni {
     margin-bottom: 0px;
     border-bottom: 0px;
-    
+
 }
 
 .logof img {
     height: 100%;
     padding: 5px
-    
+
 }
 
 .logof {
@@ -19,16 +19,27 @@
 
 
 .foospace {
-    background-color: #231f20;
-    background-image: url("/img/main.jpg");
+
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('/img/main.jpg') no-repeat;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(59%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.65))), url('/img/main.jpg') no-repeat;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('/img/main.jpg') no-repeat;
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('/img/main.jpg') no-repeat;
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('/img/main.jpg') no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url('/img/main.jpg') no-repeat;
     background-repeat:no-repeat;
-background-size:contain;
-background-position:center;
+    background-size:contain;
+    background-position:center;
     text-align: center;
+    
+    background-color: #231f20;
     color: white;
 }
 .title{
     margin-top: 100px;
+    
+}
+.title>h1{
+    text-shadow:  3px 3px 9px black;
 }
 .dona {
     position: relative;
@@ -36,7 +47,7 @@ background-position:center;
     margin-top: 75px;
     border-radius: 6px;
     border-color: transparent;
-    }
+}
 
 .padding-vh {
     margin-top: 27px;
@@ -46,13 +57,9 @@ background-position:center;
     margin:0 auto;
 }
 
-.slider-handle {
-background:  url(../img/mascota_aguadilla.png) no-repeat center;
-background-size: contain;
+.slider {
+background: none !important;
 }
-/*.slider {
-    background: none;
-}*/
 
 .fa {
     color: #f8981d;
@@ -60,17 +67,17 @@ background-size: contain;
 
 .uni-primary {
     background-color: #f8981d !important;
-   
+
 }
 
 .logob {
-    
+
     margin-top: -1.4em !important;
     margin-left: -1.25em !important;
     margin-bottom: -1em !important;
     background-color: white !important;
     float: left;
-    
+
 }
 
 .logob img {
@@ -103,60 +110,67 @@ background-size: contain;
     background-image:linear-gradient(to bottom, #233e92 0%, #233e92 100%); 
 }
 .uni-arecibo {
-    background-color: #faf374;
+    background-color: #faf374 !important;
+    color: black !important;
 }
 .uni-arecibo img {
     height: 100%;
     padding: 5px;
     padding-top: 6px;
-        
+
+}
+.fa.arecibo{
+    color:  #faf374;
 }
 .uni-bayamon {
-    background-color: #97b4de;
+    background-color: #97b4de !important;
     color: white !important;
 }
 .uni-bayamon img{
     height: 93%;
     margin-top: 2px;
-    
+
+}
+.fa.bayamon{
+    color:  #97b4de;
 }
 .uni-carolina {
-    background-color: #233e92;
+    background-color: #233e92  !important;
     color: white !important;
 }
 
 .uni-cm {
-    background-color: #9d8a49;
+    background-color: #9d8a49 !important;
     color: white !important
 }
 
 .uni-riopiedras {
-    background-color: #ef3c43;
+    background-color: #ef3c43 !important;
     color: white !important;
 }
 
 .uni-ponce {
-    background-color: #ef3e35;
+    background-color: #ef3e35 !important;
     color: white !important;
 }
 
 .uni-maya {
-    background-color: #347337;
+    background-color: #347337 !important;
     color: white !important;
 }
 
 .uni-humacao {
-    background-color: #7a123e;
+    background-color: #7a123e !important;
     color: white !important;
 }
 
 .uni-cayey {
-    background-color: #2f8a42;
-     color: white !important;
+    background-color: #2f8a42 !important;
+    color: white !important;
 }
 
 .uni-utuado {
-    background-color: #5c210d;
+    background-color: #5c210d !important;
     color: white !important;
 }
 
