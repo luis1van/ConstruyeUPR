@@ -4,3 +4,17 @@
     background-color: white;
     background-size: contain;
 }
+section.arecibo{
+    background-image: url("/img/arecibo1.jpg");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    text-align: center;
+    
+    
+    background-color: #231f20;
+    color: white;
+}
+.fa.arecibo{
+    color:  #faf374;
+}

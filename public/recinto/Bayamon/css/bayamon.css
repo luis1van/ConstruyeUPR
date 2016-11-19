@@ -1,4 +1,13 @@
 .slider-handle {
     background:  url(/img/Mascotas-UPR-3.gif) no-repeat center;
     background-size: contain;
+    background-color: white;
+}
+section.bayamon{
+    text-align: center;
+    background-color: #231f20;
+    color: white;
+}
+.fa.bayamon{
+    color:  #97b4de;
 }

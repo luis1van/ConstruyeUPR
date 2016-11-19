@@ -2,3 +2,16 @@
     background:  url(/img/mascota_aguadilla.png) no-repeat center;
     background-size: contain;
 }
+section.aguadilla{
+    background-image: url("/img/aguadilla1.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    text-align: center;
+    
+    background-color: #231f20;
+    color: white;
+}
+.fa.aguadilla{
+    color:  #233e92;
+}

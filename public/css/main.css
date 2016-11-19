@@ -55,6 +55,9 @@
 
 .meta.img-responsive {
     margin:0 auto;
+    width: auto;
+    max-width: 300px;
+    height: 200px;
 }
 
 .slider {
@@ -103,9 +106,7 @@ background: none !important;
     height: 100%;
     padding: 5px;
 }
-.fa.aguadilla{
-    color:  #233e92;
-}
+
 .slide.aguadilla{
     background-image:linear-gradient(to bottom, #233e92 0%, #233e92 100%); 
 }
@@ -119,9 +120,7 @@ background: none !important;
     padding-top: 6px;
 
 }
-.fa.arecibo{
-    color:  #faf374;
-}
+
 .uni-bayamon {
     background-color: #97b4de !important;
     color: white !important;
@@ -131,9 +130,7 @@ background: none !important;
     margin-top: 2px;
 
 }
-.fa.bayamon{
-    color:  #97b4de;
-}
+
 .uni-carolina {
     background-color: #233e92  !important;
     color: white !important;
@@ -177,7 +174,7 @@ background: none !important;
 .donas {
     position: relative;
     top: 27px;
-    margin-top: 175px;
+    margin-top: 300px;
     border-radius: 6px;
     border-color: transparent;
 }
