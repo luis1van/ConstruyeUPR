@@ -3,3 +3,16 @@
     background-color: white;
     background-size: contain;
 }
+.fa.ponce{
+    color: #ef3e35;
+}
+section.ponce{
+    background-image: url(/img/ponce.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    text-align: center;
+    
+    background-color: #231f20;
+    color: white;
+}
