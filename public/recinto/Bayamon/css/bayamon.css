@@ -26,7 +26,16 @@ section.bayamon{
     max-height: 540px;
 
 }
-
+.bayamon>.btn-fab{
+    background-image: url(/img/Mascotas-UPR-3.gif);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    
+}
 .uni-bayamon {
 
 }

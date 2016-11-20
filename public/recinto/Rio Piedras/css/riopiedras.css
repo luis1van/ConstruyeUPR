@@ -6,3 +6,13 @@
 .fa.rp {
     color: #ef3c43 ;
 }
+section.rp{
+    background-image: url(/img/rp1.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    text-align: center;
+    
+    background-color: #231f20;
+    color: white;
+}

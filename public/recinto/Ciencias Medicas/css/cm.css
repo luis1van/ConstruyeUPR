@@ -7,3 +7,23 @@
 .fa.cm{
     color: #9d8a49;
 }
+.cm>.btn-fab{
+    background-image: url(/img/Mascotas-UPR-5.gif);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    
+}
+section.cm{
+    background-image: url(/img/rcm1.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    text-align: center;
+    
+    background-color: #231f20;
+    color: white;
+}
