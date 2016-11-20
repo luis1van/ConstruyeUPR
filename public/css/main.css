@@ -30,13 +30,13 @@
     background-size:contain;
     background-position:center;
     text-align: center;
-    
+
     background-color: #231f20;
     color: white;
 }
 .title{
     margin-top: 100px;
-    
+
 }
 .title>h1{
     text-shadow:  3px 3px 9px black;
@@ -61,7 +61,7 @@
 }
 
 .slider {
-background: none !important;
+    background: none !important;
 }
 
 .fa {
@@ -165,6 +165,17 @@ background: none !important;
     background-color: #2f8a42 !important;
     color: white !important;
 }
+.box {
+    -webkit-box-shadow: 4px 4px rgba(85, 85, 85, 0.2);	
+    -moz-box-shadow: 4px 4px rgba(85, 85, 85, 0.2);	
+    box-shadow: 4px 4px rgba(85, 85, 85, 0.2);		
+}
+.box {
+		margin-bottom: 40px;
+		padding: 30px;
+		color: #fff;
+		text-align: center;
+	}
 
 .uni-utuado {
     background-color: #5c210d !important;
