@@ -15,6 +15,7 @@
     height: 250% !important;
     width: auto !important;
     background-color: white !important;
+    z-index: 3;
 }
 
 
@@ -48,6 +49,14 @@
     border-radius: 6px;
     border-color: transparent;
 }
+.dona2 {
+    position: relative;
+    top: 27px;
+    margin-top: 1px;
+    border-radius: 6px;
+    border-color: transparent;
+}
+
 
 .padding-vh {
     margin-top: 27px;
@@ -55,9 +64,12 @@
 
 .meta.img-responsive {
     margin:0 auto;
+    margin-top:35px;
     width: auto;
-    max-width: 300px;
-    height: 200px;
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    z-index: 1;
 }
 
 .slider {
@@ -196,4 +208,10 @@ footer {
 
 .metas {
     padding-top: 10px;
+}
+
+.foospace3 {
+    
+    text-align: center;
+    background-color: #231f20;
 }

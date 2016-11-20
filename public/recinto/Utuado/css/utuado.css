@@ -3,3 +3,10 @@
     background-color: white;
     background-size: contain;
 }
+section.utuado {
+    text-align: center;
+    background-color: #231f20;
+}
+.fa.utuado{
+    color: #5c210d;
+}
