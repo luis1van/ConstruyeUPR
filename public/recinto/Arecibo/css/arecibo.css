@@ -17,4 +17,6 @@ section.arecibo{
 }
 .fa.arecibo{
     color:  #faf374;
+    text-shadow: 4px 4px 1px lightgray;
+  
 }

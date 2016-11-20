@@ -11,3 +11,32 @@ section.bayamon{
 .fa.bayamon{
     color:  #97b4de;
 }
+
+.box.uni-bayamon {
+    background-image: url(/img/metas.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    width: 100%;
+    margin:0 auto;
+    width: auto;
+    padding: 0px !important;
+    max-width: 960px;
+    min-height: 270px;
+    max-height: 540px;
+
+}
+
+.uni-bayamon {
+
+}
+
+
+
+.hey {
+background: url(/img/metas.png) no-repeat center;
+background-size: contain;
+    max-height: 500px;
+    min-height: 80px;
+    height: 100px
+}

@@ -6,6 +6,16 @@
 .fa.ponce{
     color: #ef3e35;
 }
+.ponce>.btn-fab{
+    background-image: url(/img/Mascotas-UPR-7.gif);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    
+}
 section.ponce{
     background-image: url(/img/ponce.jpg);
     background-repeat:no-repeat;
