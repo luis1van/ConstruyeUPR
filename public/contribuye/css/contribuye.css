@@ -118,3 +118,8 @@ label>select{
     color: #BCBEC0 !important;
     margin: 3px !important;
 }
+
+.donateselect {
+    color:black;
+    margin-bottom:20px
+}

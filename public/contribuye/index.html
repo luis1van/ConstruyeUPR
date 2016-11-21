@@ -34,23 +34,7 @@
                     <h1 class="text-center"> #YO CONSTRUYO: </h1>
                     <div class="form-group text-center">
                         <div class="col-md-10 pselect">
-                            <label class="select">
-                                <select class="pselect">
-                                    <option value="0">Nombre del Proyecto</option>
-                                    <option value="1">UPR Aguadilla</option>
-                                    <option value="2">UPR Mayaguez-Centro de Estudiante</option>
-                                    <option value="3">UPR Rio Piedras-Museo</option>
-                                    <option value="3">UPR Ponce-Pista Atletica</option>
-                                    <option value="3">UPR Ciencias Medicas-Patio</option>
-                                    <option value="3">UPR Arecibo-Teatro</option>
-                                    <option value="3">UPR Bayamon</option>
-                                    <option value="3">UPR Cayey</option>
-                                    <option value="3">UPR Humacao</option>
-                                    <option value="3">UPR Utuado</option>
-                                    <option value="4">UPR Carolina</option>
-                                </select>
-                                <i></i>
-                            </label>
+
                         </div>
                     </div>
 
@@ -100,6 +84,22 @@
                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="Z3GWH6FR8E5P2">
+                            <table>
+                                <tr><td><input type="hidden" name="on0" value="Donar">Donar a: </td></tr><tr><td><select class="donateselect" name="os0">
+                                <option value="Nombre del Proyecto">Nombre del Proyecto</option>
+                                <option value="UPR Aguadilla">UPR Aguadilla</option>
+                                <option value="UPR Mayaguez-Centro de Estudiante">UPR Mayaguez-Centro de Estudiante</option>
+                                <option value="UPR Rio Piedras-Museo">UPR Rio Piedras-Museo</option>
+                                <option value="UPR Ponce-Pista Atletica">UPR Ponce-Pista Atletica</option>
+                                <option value="UPR Ciencias Medicas-Patio">UPR Ciencias Medicas-Patio</option>
+                                <option value="UPR Arecibo-Teatro">UPR Arecibo-Teatro</option>
+                                <option value="UPR Bayamon">UPR Bayamon</option>
+                                <option value="UPR Cayey">UPR Cayey</option>
+                                <option value="UPR Humacao">UPR Humacao</option>
+                                <option value="UPR Utuado">UPR Utuado</option>
+                                <option value="UPR Carolina">UPR Carolina</option>
+                                </select> </td></tr>
+                            </table>
                             <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
