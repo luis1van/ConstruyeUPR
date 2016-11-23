@@ -3,6 +3,7 @@
     background:  url(/img/Mascotas-UPR-2.gif) no-repeat center;
     background-color: white;
     background-size: contain;
+    background-size: 100%;
 }
 section.arecibo{
     background-image: url("/img/arecibo1.jpg");
@@ -16,7 +17,7 @@ section.arecibo{
     color: white;
 }
 .fa.arecibo{
-    color:  #faf374;
+    color:  #ffff00;
     text-shadow: 4px 4px 1px lightgray;
   
 }
